@@ -31,7 +31,8 @@ public class MainController {
         System.out.println(student.getName());
         System.out.println(student.getSurName());
         System.out.println(student.getAge());
-        StudentsGroup.students.add(student);
+        if (student.getName() != "" && student.getSurName() != "")
+            StudentsGroup.students.add(student);
         return "Ok";
     }
 }
