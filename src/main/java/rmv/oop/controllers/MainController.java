@@ -1,14 +1,10 @@
 package rmv.oop.controllers;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import rmv.oop.Student;
 import rmv.oop.StudentsGroup;
-
-import java.beans.beancontext.BeanContext;
-import java.util.ArrayList;
 
 @Controller
 public class MainController {
@@ -31,7 +27,7 @@ public class MainController {
         System.out.println(student.getName());
         System.out.println(student.getSurName());
         System.out.println(student.getAge());
-        if (student.getName() != "" && student.getSurName() != "")
+        if (!student.getName().equals("") && !student.getSurName().equals(""))
             StudentsGroup.students.add(student);
         return "Ok";
     }

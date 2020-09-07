@@ -1,8 +1,5 @@
 package rmv.oop;
 
-import org.springframework.stereotype.Component;
-import rmv.oop.Student;
-
 import java.util.ArrayList;
 
 public class StudentsGroup {
