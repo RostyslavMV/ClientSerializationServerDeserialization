@@ -1,4 +1,4 @@
-package rmv.oop;
+package com.rmv.oop;
 
 public class Student {
     private String name;

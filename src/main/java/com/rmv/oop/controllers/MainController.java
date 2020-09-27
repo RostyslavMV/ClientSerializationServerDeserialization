@@ -1,10 +1,10 @@
-package rmv.oop.controllers;
+package com.rmv.oop.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import rmv.oop.Student;
-import rmv.oop.StudentsGroup;
+import com.rmv.oop.Student;
+import com.rmv.oop.StudentsGroup;
 
 @Controller
 public class MainController {

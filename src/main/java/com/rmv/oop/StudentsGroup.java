@@ -1,4 +1,4 @@
-package rmv.oop;
+package com.rmv.oop;
 
 import java.util.ArrayList;
 

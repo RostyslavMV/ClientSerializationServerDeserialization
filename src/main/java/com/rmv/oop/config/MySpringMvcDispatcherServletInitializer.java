@@ -1,4 +1,4 @@
-package rmv.oop.config;
+package com.rmv.oop.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
